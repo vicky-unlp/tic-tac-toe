@@ -11,8 +11,8 @@
 
 .game-board{
     display: grid;
-    width: 910px;
-    height: 910px;
+    width: 600px;
+    height: 600px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 5px;
