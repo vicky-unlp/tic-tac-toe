@@ -68,3 +68,12 @@ const gameBoard = (function() {
         gameMechanics
     };
 })();
+
+const letsPlay = (function() {
+    let button = document.querySelector('.start-button');
+    button.addEventListener('click', gameBoard.boardMarking)
+})();
+
+// const game = (function(boardStructure) {
+//     console.log(gameBoard.boardStructure[0][0]);
+// })();
