@@ -22,4 +22,6 @@
 
 .board-square{
     background-color: white;
+    font-size: 160px;
+    text-align: center;
 }
